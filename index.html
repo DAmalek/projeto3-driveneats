@@ -1,14 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    
+    <meta charset="UTF-8">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="style.css">
-    <link rel="reset.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>DrivenEats</title>
 </head>
 <body>
+    <header class="topo">
+        <h1 class="titulo rig">DrivenEats</h1>
+        <p>Sua comida em 6 minutos</p>
+    </header>
+    <main>
+    <h2 class="rig subtitulo">primeiro, o almoço</h2>    
+    <div class="container1">
+        <div class="box" onclick="selecionadorPrato(this);">
+            <img src="img/frango.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>11</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+        <div class="box"  onclick="selecionadorPrato(this)">
+            <img src="img/frango.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>12</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+        <div class="box" onclick="selecionadorPrato(this)">
+            <img src="img/frango.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>13</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+    </div>
+
+    <h2 class="rig subtitulo">primeiro, o almoço</h2>    
+    <div class="container2">
+        <div class="box" onclick="selecionadorBebida(this)">
+            <img src="img/coca.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>3</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+        <div class="box" onclick="selecionadorBebida(this)">
+            <img src="img/coca.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>4</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+        <div class="box" onclick="selecionadorBebida(this)">
+            <img src="img/coca.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>5</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+    </div>
+
+    <h2 class="rig subtitulo">primeiro, o almoço</h2>    
+    <div class="container3">
+        <div class="box" onclick="selecionadorSobremesa(this)">
+            <img src="img/pudim.png" >
+            <p class="">nome</p>
+            <p class="descrição">descrição</p>
+            <p>6</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+        <div class="box" onclick="selecionadorSobremesa(this)">
+            <img src="img/pudim.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>7</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+        </div>
+        <div class="box" onclick="selecionadorSobremesa(this)">
+            <img src="img/pudim.png" >
+            <p>nome</p>
+            <p class="descrição">descrição</p>
+            <p>8</p>
+            <ion-icon name="checkmark-outline"></ion-icon>
+            
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="button" onclick="zap()">
+            <p>Selecione os 3 itens</p>
+            <p>para fechar o pedido</p>  
+        </div>
+        
+    </footer>
+    <script src="/script.js"></script>
     
 </body>
 </html>
