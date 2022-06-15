@@ -10,7 +10,7 @@ function selecionadorPrato(hm){
     }
     hm.classList.add("selecionador");
     contador+=1;
-    console.log(contador);
+    
     confirmador();
 }
 function selecionadorBebida(hm){
